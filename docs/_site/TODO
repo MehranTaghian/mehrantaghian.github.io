@@ -1,0 +1,7 @@
+The problem is that the {{ site.baseurl }} is not working properly since it is not prepending to the css path so the CSS files are not loaded.
+
+Try replacing the {{ site.baseurl }} with / in head.html which should fix the issue for sure.
+
+Also check this post which explains the baseurl
+
+https://yangxiaozhou.github.io/learning/2019/09/25/set-up-blog.html  
