@@ -3,7 +3,7 @@ title: Experiences
 ---
 
 ## Associate Machine Learning Researcher
-### Huawei Technologies Canada Co., Ltd.
+<h2 class="company-name">Huawei Technologies Canada Co., Ltd.</h2>
 <ul style='text-align: justify;'>
     <li> 
     Improved the company's 70B LLM (Pangu-Sophon) by implementing RLHF and RLAIF techniques, ensuring helpful, harmless, and faithful response generation.

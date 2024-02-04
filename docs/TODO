@@ -5,3 +5,5 @@ Try replacing the {{ site.baseurl }} with / in head.html which should fix the is
 Also check this post which explains the baseurl
 
 https://yangxiaozhou.github.io/learning/2019/09/25/set-up-blog.html  
+
+move experinecs into a data directory and iterate through experiences in the collection

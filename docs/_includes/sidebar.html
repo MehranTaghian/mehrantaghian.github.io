@@ -1,7 +1,8 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
-      <img src='{{"/public/icon.jpeg" | absolute_url}}'> <!-- **Tag Insertion, like this**-->
+      <!-- <img src='{{"/public/icon.jpeg" | absolute_url}}'> -->
+      <img src="{{ '/' | relative_url }}public/icon.jpeg"> 
       <h1>
         <a href="{{ '/' | relative_url }}">
           {{ site.title }}
