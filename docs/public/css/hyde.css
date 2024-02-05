@@ -72,14 +72,15 @@ html {
 
 /* Sidebar links */
 .sidebar a {
-  color: #fff;
+  /* color: #fff; */
+  color: lightgray;
 }
 
 /* About section */
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Abril Fatface", serif;
+  font-family: "Times New Roman", serif;
   font-size: 3.25rem;
 }
 
@@ -93,10 +94,11 @@ html {
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
-  text-decoration: underline;
+  color: white;
 }
 .sidebar-nav-item.active {
   font-weight: bold;
+  color: whitesmoke;
 }
 
 /* Sticky sidebar
@@ -109,7 +111,7 @@ a.sidebar-nav-item:focus {
   .sidebar-sticky {
     position: absolute;
     right:  1rem;
-    bottom: 1rem;
+    top: 2rem;
     left:   1rem;
   }
 }
@@ -123,7 +125,7 @@ a.sidebar-nav-item:focus {
 
 .content {
   padding-top:    4rem;
-  padding-bottom: 4rem;
+  padding-bottom: 58rem;
 }
 
 @media (min-width: 48em) {
