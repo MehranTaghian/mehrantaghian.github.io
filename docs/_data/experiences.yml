@@ -1,5 +1,10 @@
 - company: Huawei Techonologies Canada CO., Ltd.
   role: Associate Machine Learning Researcher
+  from: Apr 2023
+  to: In progress ...
+  logo:
+    name: huawei.svg.png
+    width: 50px
   responsibilities:
     - Improved the company's 70B LLM (Pangu-Sophon) by implementing RLHF and RLAIF techniques, ensuring helpful, harmless, and faithful response generation.
     - Elevated Pangu-Sophon's reasoning abilities through the incorporation of synthetic and open-source datasets, contributing to improved overall performance.
@@ -8,6 +13,11 @@
 
 - company: University of Alberta (in collaboration with Mitsubishi Electric Co.)
   role: Research Assistant
+  from: May 2021
+  to: Apr 2023
+  logo: 
+    name: ualberta.jpeg
+    width: 55px
   responsibilities:
     - Developed groundbreaking methodology for global interpretation of policy gradient algorithms in robotic domains, emphasizing individual contributions of each robot component to decision-making.
     - Developed an innovative approach facilitating real-time diagnostics for malfunctions and dynamic adaptation to environmental changes in robotics scenarios.
@@ -16,6 +26,11 @@
 
 - company: Amirkabir University of Technology
   role: Research Assistant
+  from: Jan 2020
+  to: Jan 2021
+  logo:
+    name: amirkabir.jpeg
+    width: 60px
   responsibilities:
     - Developed a robust stock market quantitative trading framework utilizing deep reinforcement learning, achieving consistent outperformance of rule-based and technical analysis-based approaches across diverse real-world data.
     - Engineered an automated learning agent for daily historical data collection, pattern extraction, and provision of trading strategy recommendations, demonstrating effectiveness across diverse real-world data with varying trends and volatilities.
@@ -23,6 +38,11 @@
 
 - company: KTH Royal Institute of Technology
   role: Research Intern
+  from: Jun 2019
+  to: Nov 2019
+  logo:
+    name: kth.jpeg
+    width: 60px
   responsibilities:
     - Investigated explainability techniques for Graph Convolutional Neural Networks (GCNs).
     - Achieved a 99.7% accuracy by successfully developing and training a GCN on a subset of Visual Genome, a large dataset of structured images.
@@ -31,6 +51,11 @@
 
 - company: IPM Institute for Research in Fundamental Sciences
   role: Research Intern
+  from: Jun 2019
+  to: Nov 2019
+  logo:
+    name: ipm.png
+    width: 150px
   responsibilities:
     - Implemented neural network compression, reducing memory access by 15.3× and forward-propagation computation by 11.3× through sparsity and weight/input similarity.
     - Successfully applied the compression method to popular ImageNet architectures such as AlexNet, VGG, Inception, and ResNet, showcasing its versatility and effectiveness.

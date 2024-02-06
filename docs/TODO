@@ -9,3 +9,7 @@ https://yangxiaozhou.github.io/learning/2019/09/25/set-up-blog.html
 move experinecs into a data directory and iterate through experiences in the collection
 
 to modify the maximum length of the page content (padding bottom for links to get activated) set it at .content class css in hyde.css.
+
+add logos for job experiences
+
+replace browser tab title logo
