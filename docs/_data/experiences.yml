@@ -1,0 +1,36 @@
+- company: Huawei Techonologies Canada CO., Ltd.
+  role: Associate Machine Learning Researcher
+  responsibilities:
+    - Improved the company's 70B LLM (Pangu-Sophon) by implementing RLHF and RLAIF techniques, ensuring helpful, harmless, and faithful response generation.
+    - Elevated Pangu-Sophon's reasoning abilities through the incorporation of synthetic and open-source datasets, contributing to improved overall performance.
+    - Significantly accelerated training on the cloud using Parameter Efficient techniques, including LoRA, for efficient model optimization and faster deployment.
+    - Developed a household task dataset to fine-tune a language model for generating robot plans, focusing on embodied reasoning.
+
+- company: University of Alberta (in collaboration with Mitsubishi Electric Co.)
+  role: Research Assistant
+  responsibilities:
+    - Developed groundbreaking methodology for global interpretation of policy gradient algorithms in robotic domains, emphasizing individual contributions of each robot component to decision-making.
+    - Developed an innovative approach facilitating real-time diagnostics for malfunctions and dynamic adaptation to environmental changes in robotics scenarios.
+    - Accelerated training via cloud computing and optimized resource utilization on local servers.
+    - Maintained effective communication with Mitsubishi research group, demonstrating problem-solving skills through introduction of novel solutions and self-motivation in exploring analogous work.
+
+- company: Amirkabir University of Technology
+  role: Research Assistant
+  responsibilities:
+    - Developed a robust stock market quantitative trading framework utilizing deep reinforcement learning, achieving consistent outperformance of rule-based and technical analysis-based approaches across diverse real-world data.
+    - Engineered an automated learning agent for daily historical data collection, pattern extraction, and provision of trading strategy recommendations, demonstrating effectiveness across diverse real-world data with varying trends and volatilities.
+    - Explored and optimized hyper-parameter configurations, including Deep Neural Network architectures (RNNs, CNNs, MLPs) and fine-tuned parameters for deep Reinforcement Learning algorithms through a parallel search in the hyper-parameter space.
+
+- company: KTH Royal Institute of Technology
+  role: Research Intern
+  responsibilities:
+    - Investigated explainability techniques for Graph Convolutional Neural Networks (GCNs).
+    - Achieved a 99.7% accuracy by successfully developing and training a GCN on a subset of Visual Genome, a large dataset of structured images.
+    - Implemented efficient validation and storage of massive Visual Genome data, creating a problem-specific data loader for GPU-based model training.
+    - Generated high-fidelity and contrastive explanations for GCNs in a graph classification task, enhancing interpretability and transparency of model decisions.
+
+- company: IPM Institute for Research in Fundamental Sciences
+  role: Research Intern
+  responsibilities:
+    - Implemented neural network compression, reducing memory access by 15.3× and forward-propagation computation by 11.3× through sparsity and weight/input similarity.
+    - Successfully applied the compression method to popular ImageNet architectures such as AlexNet, VGG, Inception, and ResNet, showcasing its versatility and effectiveness.

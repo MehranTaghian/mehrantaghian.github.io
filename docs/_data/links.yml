@@ -1,0 +1,11 @@
+- name: GitHub
+  logo: github
+  url: https://github.com/MehranTaghian
+
+- name: Google Scholar
+  logo: google
+  url: https://scholar.google.com/citations?user=ZE3TH7gAAAAJ&hl=en
+
+- name: LinkedIn 
+  logo: linkedin
+  url: https://www.linkedin.com/in/mehran-taghian

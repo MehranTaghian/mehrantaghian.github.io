@@ -39,6 +39,16 @@
       <span class="sidebar-nav-item">Currently v{{ site.version }}</span> -->
     </nav>
 
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+    <nav id="links" class="sidebar-nav">
+      {% for link in site.data.links %}
+          <a class="sidebar-nav-item" href="{{ link.url }}">
+            <i class="fa fa-{{link.logo}}"></i>
+            {{ link.name }}
+          </a>
+      {% endfor %}
+    </nav>
+
+
+    <!-- <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p> -->
   </div>
 </div>

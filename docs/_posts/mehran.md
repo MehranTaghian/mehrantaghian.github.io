@@ -1,6 +1,0 @@
----
-layout: post
-title: Introducing Mehran
----
-
-This post is about mehran without date
