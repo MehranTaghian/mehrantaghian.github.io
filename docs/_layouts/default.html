@@ -8,6 +8,9 @@
     {% include sidebar.html %}
 
     <div class="content container">
+      <img src="{{ '/' | relative_url }}public/skills.jpg"> 
+      {% include expertise.html %}
+      {% include skills.html %}
       {{ content }}
     </div>
 

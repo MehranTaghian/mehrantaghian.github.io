@@ -12,7 +12,7 @@
         color: #93A2AC;
         font-family: Lato;
         font-weight:100;
-        margin: 2rem;
+        margin: 1rem;
         &:before {
             content: attr(data-name);
             position: absolute;
@@ -31,7 +31,7 @@
         }
     }
     svg {
-        width: 10rem;
+        width: 12rem;
         height: 10rem;
         &:nth-child(2) {
             position: absolute;
