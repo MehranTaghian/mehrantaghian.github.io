@@ -1,0 +1,44 @@
+- name: MachineLearning
+  level: 90
+
+- name: ReinforcementLearning
+  level: 90
+
+- name: Python
+  level: 90
+
+- name: Pytorch
+  level: 80
+
+- name: Tensorflow
+  level: 50
+
+- name: DataAnalysis
+  level: 80
+
+- name: Pandas
+  level: 90
+
+- name: Matplotlib
+  level: 90
+
+- name: ScikitLearn
+  level: 50
+
+- name: SciPy
+  level: 50
+
+- name: Robotics
+  level: 60
+
+- name: Java
+  level: 80
+
+- name: C
+  level: 70
+  
+- name: CUDA
+  level: 40
+
+- name: OpenMP
+  level: 40
