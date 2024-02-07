@@ -1,0 +1,22 @@
+- university: University of Alberta
+  location: Edmonton, AB, Canada
+  degree: M.Sc.
+  field: Computer Science
+  from: Jan 2021
+  to: Nov 2022
+  gpa: 3.90 / 4.00
+  logo:
+    name: ualberta.jpeg
+    width: 55px
+
+- university: Amirkabir University of Technology
+  location: Tehran, Iran
+  degree: B.Sc.
+  field: Computer Engineering
+  from: Sep 2016
+  to: Nov 2020
+  gpa: 3.99 / 4.00
+  logo:
+    name: amirkabir.jpeg
+    width: 60px
+

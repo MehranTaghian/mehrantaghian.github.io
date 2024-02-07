@@ -2,4 +2,14 @@
 title: Education
 ---
 
-This is the Education section
+{% for exp in site.data.education %}
+
+<h2>{{ exp.degree }} {{ exp.field}} <span class="location"> GPA: {{ exp.gpa }}</span></h2>
+
+<h2 class="company-name"><img src="{{ '/' | relative_url }}public/{{ exp.logo.name }}" alt="Logo" style="width: {{ exp.logo.width }};"/>{{ exp.university }}
+<span class="location"><i class="fa fa-map-marker"></i> {{ exp.location }}</span></h2>
+
+<p class="post-date"><i class="fa fa-calendar"></i> {{ exp.from }} - {{ exp.to }}</p>
+{% endfor %}
+
+<!-- add GPA, location,  -->

@@ -35,5 +35,5 @@ collections:
   resume_items:
     order:
       - about.md
-      - experiences.md
       - education.md
+      - experiences.md
