@@ -1,3 +1,11 @@
+- name: taghianmehran@gmail.com
+  logo: envelope
+  url: mailto:taghianmehran@gmail.com
+
+- name: +1 (780) 604 2424
+  logo: phone
+  url: tel:780-604-2424
+
 - name: GitHub
   logo: github
   url: https://github.com/MehranTaghian

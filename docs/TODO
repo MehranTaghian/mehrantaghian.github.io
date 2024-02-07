@@ -13,3 +13,5 @@ to modify the maximum length of the page content (padding bottom for links to ge
 add logos for job experiences
 
 replace browser tab title logo
+
+write about chart counts in the scss file and how it should be compiled into css according to the number of skills

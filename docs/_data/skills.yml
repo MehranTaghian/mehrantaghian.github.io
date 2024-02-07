@@ -1,44 +1,54 @@
-- name: MachineLearning
-  level: 90
 
-- name: ReinforcementLearning
-  level: 90
+- skill-group: Programming
+  chart: prog
+  skills:
+    - name: Python
+      level: 90
+    - name: Java
+      level: 80 
+    - name: C / C++
+      level: 70
+    - name: CUDA
+      level: 40
+    - name: OpenMP
+      level: 40
 
-- name: Python
-  level: 90
+- skill-group: Machine Learning
+  chart: ml
+  skills:
+      - name: Pytorch
+        level: 80
 
-- name: Pytorch
-  level: 80
+      - name: Tensorflow
+        level: 50
 
-- name: Tensorflow
-  level: 50
+- skill-group: Data Analysis
+  chart: data
+  skills:
+    - name: Pandas
+      level: 90
+    - name: Matplotlib
+      level: 90
+    - name: ScikitLearn
+      level: 50
+    - name: SciPy
+      level: 50
 
-- name: DataAnalysis
-  level: 80
 
-- name: Pandas
-  level: 90
+- skill-group: Web
+  chart: web
+  skills:
+    - name: JavaScript
+      level: 80
+    - name: HTML
+      level: 80
+    - name: CSS
+      level: 80
+    - name: Node.js
+      level: 70
+    - name: Vue.js
+      level: 80
 
-- name: Matplotlib
-  level: 90
 
-- name: ScikitLearn
-  level: 50
-
-- name: SciPy
-  level: 50
-
-- name: Robotics
-  level: 60
-
-- name: Java
-  level: 80
-
-- name: C
-  level: 70
   
-- name: CUDA
-  level: 40
 
-- name: OpenMP
-  level: 40

@@ -33,8 +33,6 @@ plugins:
 
 collections:
   resume_items:
-    order:
-      - about.md
-      - education.md
-      - experiences.md
+    permalink: /resume_items/:name.html
+    sort_by: order
 

@@ -1,0 +1,16 @@
+- name: Machine Learning
+  level: 90
+
+- name: Reinforcement Learning
+  level: 90
+
+- name: NLP
+  level: 80
+
+- name: Data Analysis
+  level: 80
+
+- name: Robotics
+  level: 60
+
+
