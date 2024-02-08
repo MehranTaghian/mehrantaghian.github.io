@@ -443,3 +443,14 @@ a.pagination-item:hover {
     border-bottom-right-radius: 4px;
   }
 }
+
+
+.bracketed-list {
+  list-style-type: none; /* Remove default numbering */
+  counter-reset: list-counter; /* Reset the counter */
+}
+ 
+.bracketed-list li::before {
+  content: "[" counter(list-counter) "] "; /* Display the counter value inside brackets */
+  counter-increment: list-counter; /* Increment the counter */
+}

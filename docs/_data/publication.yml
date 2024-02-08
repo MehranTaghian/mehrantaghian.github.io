@@ -1,0 +1,25 @@
+- authors: "Taghian, M., Asadi, A. and Safabakhsh, R., 2022."  
+  title: "Learning financial asset-specific trading rules via deep reinforcement learning."
+  other: "Expert Systems with Applications, 195, p.116523."
+  url: https://www.sciencedirect.com/science/article/pii/S0957417422000239
+
+- authors: "Taghian, M., Asadi, A. and Safabakhsh, R., 2021."
+  title: "A reinforcement learning based encoder-decoder framework for learning stock trading rules."
+  other: "arXiv preprint arXiv:2101.03867." 
+  url: https://arxiv.org/abs/2101.03867
+
+- authors: "Falahati, H., Peyro, M., Amini, H., Taghian, M., Sadrosadati, M., Lotfi-Kamran, P. and Sarbazi-Azad, H., 2021."
+  title: "Data-Aware compression of neural networks."
+  other: "IEEE Computer Architecture Letters, 20(2), pp.94-97."
+  url: https://ieeexplore.ieee.org/abstract/document/9483693
+
+- authors: 'Taghian Jazi, M., 2022.'
+  title: "Representation Analysis of Deep Reinforcement Learning algorithms in Robotic Environments."
+  url: https://era.library.ualberta.ca/items/c227f176-f7b8-4512-be54-0ce675c0d7e3
+ 
+
+- authors: "Jazi, M.T., Miwa, S., Mitsuka, Y., Günther, J. and Zaiane, O., 2022."
+  title: "Explainability of deep reinforcement learning algorithms in robotic domains by using Layer-wise Relevance Propagation."
+  url: https://openreview.net/forum?id=l2cryUoxvaX
+
+ 
