@@ -30,9 +30,3 @@ plugins:
   - jekyll-paginate
   - jekyll-gist
   - redcarpet
-
-collections:
-  resume_items:
-    permalink: /resume_items/:name.html
-    sort_by: order
-
