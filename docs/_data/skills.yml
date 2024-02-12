@@ -1,6 +1,5 @@
 
 - skill-group: Programming
-  chart: prog
   skills:
     - name: Python
       level: 90
@@ -12,6 +11,8 @@
       level: 40
     - name: OpenMP
       level: 40
+    - name: Assembly Programming
+      level: 70 
 
 - skill-group: Machine Learning
   chart: ml
@@ -21,9 +22,12 @@
 
       - name: Tensorflow
         level: 50
+      
+      - name: Jax
+        level: 50
+      
 
 - skill-group: Data Analysis
-  chart: data
   skills:
     - name: Pandas
       level: 90
@@ -36,18 +40,37 @@
 
 
 - skill-group: Web
-  chart: web
   skills:
     - name: JavaScript
-      level: 80
+      level: 90
     - name: HTML
-      level: 80
+      level: 90
     - name: CSS
-      level: 80
+      level: 90
     - name: Node.js
       level: 70
     - name: Vue.js
       level: 80
+
+- skill-group: Operating Systems
+  skills:
+    - name: Linux
+      level: 80
+    - name: MacOS
+      level: 70
+    - name: Windows
+      level: 80
+
+
+- skill-group: Other Tools
+  skills:
+    - name: Docker
+      level: 60
+    - name: Git
+      level: 80
+    - name: Microsoft Office
+      level: 90
+
 
 
   

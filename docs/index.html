@@ -4,16 +4,11 @@ title: Home
 ---
 
 <div class="posts">
-  {% for resume_item in site.resume_items %}
-  <div class="post">
-    <h1 class="post-title" id="{{ resume_item.title }}">
-      <!-- <a href="{{ resume_item.url }}"> -->
-        {{ resume_item.title }}
-      <!-- </a> -->
-    </h1>
-
-    {{ resume_item.content }}
-  </div>
-  {% endfor %}
+  {% include about.html %}  
+  {% include expertise.html %}
+  {% include education.html %}
+  {% include skills.html %}
+  {% include experiences.html %}  
+  {% include publications.html %}  
 </div>
 

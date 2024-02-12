@@ -7,11 +7,19 @@
     name: huawei.svg.png
     width: 50px
   responsibilities:
-    - Improved the company's 70B LLM (Pangu-Sophon) by implementing RLHF and RLAIF techniques, ensuring helpful, harmless, and faithful response generation.
-    - Elevated Pangu-Sophon's reasoning abilities through the incorporation of synthetic and open-source datasets, contributing to improved overall performance.
-    - Significantly accelerated training on the cloud using Parameter Efficient techniques, including LoRA, for efficient model optimization and faster deployment.
-    - Developed a household task dataset to fine-tune a language model for generating robot plans, focusing on embodied reasoning.
-
+    - project: Improving the company's 70B LLM (Pangu-Sophon) 
+      tasks:
+        - Preparing a survey on SOTA self-improvment techniques for LLMs.
+        - Developed a self-improvement pipeline utilizing RLAIF and RLHF techniques.
+        - Verified the efficiency of the fine-tuning pipeline using smaller language models 
+        - Contributed to improving the reasoning capabilies utilizing RLHF pipeline.
+    - project: Multi-Modal Planning and Embodied Reasoning
+      tasks:   
+        - Configured table-top robots and implemented code for kinesthetic demonstration-based data collection.
+        - Contributed to the creation of a dataset comprising 300K scenarios involving household tasks performed by both fixed and mobile manipulators.
+        - Engineered a multi-modal planner by integrating a Q/A model, a captioning model, and an LLM to enhance planning capabilities.
+        - Achieved superior performance over the text-only planner by integrating object locations and their contextual relationships within scenes.
+    
 - company: University of Alberta
   role: Research Assistant
   from: May 2021
@@ -21,11 +29,19 @@
     name: ualberta.jpeg
     width: 55px
   responsibilities:
-    - This work was in collaboration with Mitsubishi Electric Co.
-    - Developed groundbreaking methodology for global interpretation of policy gradient algorithms in robotic domains, emphasizing individual contributions of each robot component to decision-making.
-    - Developed an innovative approach facilitating real-time diagnostics for malfunctions and dynamic adaptation to environmental changes in robotics scenarios.
-    - Accelerated training via cloud computing and optimized resource utilization on local servers.
-    - Maintained effective communication with Mitsubishi research group, demonstrating problem-solving skills through introduction of novel solutions and self-motivation in exploring analogous work.
+    - project: Adaptation to changing dynamics in robotic domains using reinforcement learning 
+      tasks: 
+        - Designed and developed a benchmark for dynamically changing robotic environments using Mujoco.
+        - Investigated the effectiveness of state-of-the-art model-free reinforcement learning algorithms in responding to dynamic changes.
+        - Enhanced the speed of adaptation by preserving or injecting prior knowledge into the policy.
+        - Expedited training across multiple seeds through distributed computing, optimizing resource utilization on local servers.
+    - project: Explainability of deep reinforcement learning algorithms in robotic domains leveraging graph neural networks 
+      tasks:  
+        - Innovated and developed a methodology for globally explaining policy gradient algorithms in robotic domains.  
+        - Accurately highlighted individual contributions of each robot component to decision-making using this methodology.
+        - Innovated and developed an approach for real-time diagnostics of malfunctions and dynamic adaptations.
+        - Accelerated training via cloud computing and optimized resource utilization on local servers.
+
 
 - company: Amirkabir University of Technology
   role: Research Assistant
@@ -36,9 +52,12 @@
     name: amirkabir.jpeg
     width: 60px
   responsibilities:
-    - Developed a robust stock market quantitative trading framework utilizing deep reinforcement learning, achieving consistent outperformance of rule-based and technical analysis-based approaches across diverse real-world data.
-    - Engineered an automated learning agent for daily historical data collection, pattern extraction, and provision of trading strategy recommendations, demonstrating effectiveness across diverse real-world data with varying trends and volatilities.
-    - Explored and optimized hyper-parameter configurations, including Deep Neural Network architectures (RNNs, CNNs, MLPs) and fine-tuned parameters for deep Reinforcement Learning algorithms through a parallel search in the hyper-parameter space.
+    - project: Automated stock market asset-specific trading framework utilizing deep reinforcement learning
+      tasks:
+        - Developed an automated learning agent for daily historical data collection, pattern extraction, and trading strategy recommendations, 
+        - Innovated a robust methodogoly based on deep RL, consistently outperforming rule-based and technical analysis-based approaches.
+        - Demonstrated strong robustness against market trends and volatilities.
+        - Explored and optimized hyper-parameter configurations for deep RL algorithms, including neural network architectures (such as RNNs, CNNs, MLPs).
 
 - company: KTH Royal Institute of Technology
   role: Research Intern
@@ -49,10 +68,12 @@
     name: kth.jpeg
     width: 60px
   responsibilities:
-    - Investigated explainability techniques for Graph Convolutional Neural Networks (GCNs).
-    - Achieved a 99.7% accuracy by successfully developing and training a GCN on a subset of Visual Genome, a large dataset of structured images.
-    - Implemented efficient validation and storage of massive Visual Genome data, creating a problem-specific data loader for GPU-based model training.
-    - Generated high-fidelity and contrastive explanations for GCNs in a graph classification task, enhancing interpretability and transparency of model decisions.
+    - project: Explainability techniques for graph convolutional networks
+      tasks: 
+        - Achieved a 99.7% accuracy by successfully developing and training a GCN on a subset of <a href="https://homes.cs.washington.edu/~ranjay/visualgenome/index.html" > Visual Genome </a> dataset.
+        - Implemented an efficient data storage and training pipeline to handle the extensive Visual Genome graph dataset for GCN training. 
+        - Generated high-fidelity and contrastive explanations for GCNs in a graph classification task. 
+        - Improved and assessed the interpretability and transparency of model decisions in a scene-graph description task.
 
 - company: IPM Institute for Research in Fundamental Sciences
   role: Research Intern
@@ -62,6 +83,8 @@
   logo:
     name: ipm.png
     width: 150px
-  responsibilities:
-    - Implemented neural network compression, reducing memory access by 15.3× and forward-propagation computation by 11.3× through sparsity and weight/input similarity.
-    - Successfully applied the compression method to popular ImageNet architectures such as AlexNet, VGG, Inception, and ResNet, showcasing its versatility and effectiveness.
+  responsibilities: 
+    - project: Data-Aware compression of neural networks.
+      tasks:
+        - Applied neural network compression techniques, achieving a reduction in memory access by 15.3× and forward-propagation computation by 11.3× through sparsity and weight/input similarity.
+        - Successfully extended the compression method to well-known ImageNet architectures including AlexNet, VGG, Inception, and ResNet, highlighting its versatility and effectiveness.

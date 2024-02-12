@@ -1,0 +1,25 @@
+
+
+<div class="post">
+    <h1 class="post-title" id="experiences">
+        Experiences
+    </h1>
+    {% for exp in site.data.experiences %}
+    <h2> {{ exp.role }} </h2>
+    <h2 class="company-name"><img src="{{ '/' | relative_url }}public/{{ exp.logo.name }}" alt="Logo" style="width: {{ exp.logo.width }};"/>{{ exp.company }} <span class="location"><i class="fa fa-map-marker"></i> {{ exp.location }}</span></h2>
+    <p class="post-date"><i class="fa fa-calendar"></i> {{ exp.from }} - {{ exp.to }}</p>
+        {% for resp in exp.responsibilities %}
+            <button class="collapsible"><b>Project: </b>{{ resp.project }}</button>
+            <div class="collapsible-content">
+                <ul>
+                    {% for task in resp.tasks %}
+                    <li>
+                        {{ task }}
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        {% endfor %}
+    {% endfor %}
+
+</div>

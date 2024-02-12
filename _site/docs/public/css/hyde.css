@@ -255,37 +255,31 @@ a.sidebar-nav-item:focus {
 
 .collapsible {
   background-color: whitesmoke;
-  color: black;
+  color: gray;
   cursor: pointer;
   padding: 18px;
   width: 100%;
   border: none;
-  border-radius: 10px;
+  border-radius: 2px;
   text-align: left;
   outline: none;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .active, .collapsible:hover {
   background-color: #555;
-  color: white
 }
 
 .collapsible:after {
   content: '\002B';
-  color: black;
+  color: white;
   font-weight: bold;
   float: right;
   margin-left: 5px;
 }
 
-.collapsible:hover:after {
-  color: white;
-}
-
 .collapsible.active:after {
   content: "\2212";
-  color: white
 }
 
 .collapsible-content {
@@ -293,5 +287,5 @@ a.sidebar-nav-item:focus {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  background-color: white;
+  background-color: #f1f1f1;
 }

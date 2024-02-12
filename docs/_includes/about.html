@@ -1,0 +1,17 @@
+
+<div class="post">
+    <h1 class="post-title" id="about">
+        About Mehran
+    </h1>
+    <ul style='text-align: justify;'>
+        {% for sum in site.data.summary %}
+        <li> 
+            <b>{{ sum.topic }}</b> 
+        </li>
+        <ul>
+            <li>{{ sum.desc }}</li>
+        </ul>
+        {% endfor %}
+    </ul>
+
+</div>

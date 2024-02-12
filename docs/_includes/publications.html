@@ -1,0 +1,13 @@
+
+<div class="post">
+    <h1 class="post-title" id="publications">
+        Publications
+    </h1>
+    <ol class="bracketed-list" style='text-align: justify;'>
+        {% for p in site.data.publication %}
+        <li> 
+            {{ p.authors }} <a href="{{p.url}}"> {{p.title}} </a> {{p.other}}
+        </li>
+        {% endfor %}
+    </ol>
+</div>

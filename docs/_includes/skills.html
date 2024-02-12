@@ -1,5 +1,7 @@
-<div class="page">
-  <h1 class="page-title">Skills</h1>
+<div class="post">
+  <h1 class="post-title" id="skills">
+    Skills
+  </h1>
   <div class="skills">
       <ul class="lines">
         <li class="line l--0">
@@ -31,7 +33,7 @@
 
       <div class="charts">
           {% for s in site.data.skills %}
-          <div class="chart chart--{{s.chart}}">
+          <div class="chart">
             <span class="chart__title">{{s.skill-group}}</span>
             <ul class="chart--horiz">
               {% for skill in s.skills %}
