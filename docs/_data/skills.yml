@@ -66,6 +66,8 @@
   skills:
     - name: Docker
       level: 60
+    - name: LaTeX
+      level: 80
     - name: Git
       level: 80
     - name: Microsoft Office
