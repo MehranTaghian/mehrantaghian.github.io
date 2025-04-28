@@ -29,18 +29,19 @@
     name: ualberta.jpeg
     width: 55px
   responsibilities:
-    - project: Adaptation to changing dynamics in robotic domains using reinforcement learning 
-      tasks: 
-        - Designed and developed a benchmark for dynamically changing robotic environments using Mujoco.
-        - Investigated the effectiveness of state-of-the-art model-free reinforcement learning algorithms in responding to dynamic changes.
-        - Enhanced the speed of adaptation by preserving or injecting prior knowledge into the policy.
-        - Expedited training across multiple seeds through distributed computing, optimizing resource utilization on local servers.
     - project: Explainability of deep reinforcement learning algorithms in robotic domains leveraging graph neural networks 
       tasks:  
         - Innovated and developed a methodology for globally explaining policy gradient algorithms in robotic domains.  
         - Accurately highlighted individual contributions of each robot component to decision-making using this methodology.
         - Innovated and developed an approach for real-time diagnostics of malfunctions and dynamic adaptations.
         - Accelerated training via cloud computing and optimized resource utilization on local servers.
+    - project: Adaptation to changing dynamics in robotic domains using reinforcement learning 
+      tasks: 
+        - Designed and developed a benchmark for dynamically changing robotic environments using Mujoco.
+        - Investigated the effectiveness of state-of-the-art model-free reinforcement learning algorithms in responding to dynamic changes.
+        - Enhanced the speed of adaptation by preserving or injecting prior knowledge into the policy.
+        - Expedited training across multiple seeds through distributed computing, optimizing resource utilization on local servers.
+    
 
 
 - company: Amirkabir University of Technology
